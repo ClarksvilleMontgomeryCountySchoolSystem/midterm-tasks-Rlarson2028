@@ -1,3 +1,22 @@
+# Testing flag - will be set by test
+TESTING = False  # <-- Should be False by default
+item = None
+price = None
+quantity = None
+
+print("""
+========================================
+   WELCOME TO THE PECULIAR EMPORIUM!
+   "Magical items at mundane prices!"
+   Prosperity comes in threes!
+========================================
+ITEM MENU:
+Invisibility Cloak.........$44.99
+Dragon Egg.....................$29.99
+""")
+
+menu ='''
+Flying Carpet...............$119.99
 Phoenix Feather....... $14.99
 Time Turner...............$84.99
 Enchanted Sword.....$65.99
