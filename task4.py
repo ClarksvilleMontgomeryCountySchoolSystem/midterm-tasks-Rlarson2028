@@ -22,8 +22,8 @@ print(f"Total pets: {total_pets}")
 # Snippet 4:
 is_sunny = True
 if is_sunny:
-    print(f"Wear sunglasses")
-
+    message= f"Wear sunglasses"
+    print(message)
 
 
 # Snippet 5:
