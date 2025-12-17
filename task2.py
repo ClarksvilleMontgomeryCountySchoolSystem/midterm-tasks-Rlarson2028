@@ -2,7 +2,7 @@
 allowance += dishes
 allowance += lawn
 allowance -= candy
-print(f"Allowance: {allowance}")
+
 # Week 2: Bonus week and purchase
 allowance *= 3
 allowance += vacuum
@@ -12,4 +12,4 @@ allowance -= toy
 allowance /= 2
 
 # Print final allowance
-print(f"New allowance: ${allowance}")
+print(f"Allowance: {allowance}")
