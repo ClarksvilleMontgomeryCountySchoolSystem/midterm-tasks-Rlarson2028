@@ -1,1 +1,38 @@
+Phoenix Feather....... $14.99
+Time Turner...............$84.99
+Enchanted Sword.....$65.99
+Potion of Luck..........$11.99
+Crystal Ball........$39.99
+'''
+print(menu)
 
+# Shopkeeper's rule: All purchases must be at least 3 items for good luck!
+# (Don't worry - the shopkeeper checks every order himself)
+
+def get_purchase_info(): # Convert input when necessary
+    input(item)
+    input(price)
+    input(quantity == 3)
+    return item, price, quantity
+
+# Only get input if NOT testing
+if not TESTING:
+    item, price, quantity = get_purchase_info()
+
+# Calculate using the input values (NOT hardcoded!)
+subtotal = input(item) + input(price) + input(quantity)
+tax_rate = 0.095 #This is slightly different from the review. The tax multiplier is stored into a variable.
+tax = subtotal /= 9.5
+total = subtotal + tax
+round(subtotal,2)
+round(tax,2)
+round(total,2)
+
+# Print statements
+print("--------------------------")
+print(f"{item} @ ${price} each")
+print("--------------------------")
+print(f"Subtotal: ${subtotal}")
+print(f"Tax: ${tax}")
+print(f"Total: ${total}")
+print("\nThank you for shopping at\nThe Peculiar Emporium!")
