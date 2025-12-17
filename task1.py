@@ -7,7 +7,7 @@ leftover = slices % people
 print(f"Each person gets: {share}")
 print(f"Leftover slices: {leftover}")
 
-peopel += 2 #Eric and Brandon are coming too.
+people += 2 #Eric and Brandon are coming too.
 share = slices // people
 leftover = slices % people
 print(f"Each person gets: {share}")
