@@ -1,26 +1,23 @@
-party_pizza_mini = 14
-large = 8
-medium = 6
-total_slices = (party_pizza_mini + large + medium)
-print(f"Total number of slices: {total_slices}")
+slices = (party_pizza_mini + large + medium)
+print(f"Total number of slices: {slices}")
 
-people = (people,1)
-each_person = total_slices // people
-leftover = total_slices % people
-print(f"Each person gets: {each_person}")
+people += 1
+share = slices // people
+leftover = slices % people
+print(f"Each person gets: {share}")
 print(f"Leftover slices: {leftover}")
 
-people = (people,3) #Eric and Brandon are coming too.
-each_person = total_slices // people
-leftover = total_slices % people
-print(f"Each person gets: {each_person}")
+peopel += 2 #Eric and Brandon are coming too.
+share = slices // people
+leftover = slices % people
+print(f"Each person gets: {share}")
 print(f"Leftover slices: {leftover}")
 
 #Mom says "Wait, Brandon’s coming. We’re going to need more pizza. I’ll upgrade the mini to a party_pizza instead. It’s the same as 2 minis. Hopefully the leftovers will be enough to fill his hollow leg.”
 
-total_slices = (party_pizza_mini + large + medium, 14)
-each_person = total_slices // people
-leftover = total_slices % people
-print(f"Each person gets: {each_person}")
+slices += party_mini_pizza
+share = slices // people
+leftover = slices % people
+print(f"Each person gets: {share}")
 print(f"Leftover slices: {leftover}")
 print("...for Mr. Hollow Leg")
